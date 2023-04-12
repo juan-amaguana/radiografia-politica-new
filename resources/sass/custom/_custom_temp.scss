@@ -1,0 +1,45 @@
+// outline: none !important;
+//header nav, no scroll
+
+//FCD Colors
+$fcd_dark_blue: #004a6c;
+$fcd_buttons: #004a6c;
+$fcd_dark_gray: #706f6f;
+$fcd_light_gray: #ededed;
+$fcd_footer_background: #f6f6f6;
+$fcd_yellow: #fab70f;
+$fcd_blue: #1d71b8;
+$fcd_red: #e30613;
+$fcd_home_section_1: #004a6c; //opacity 0.61
+
+// FCD Typography
+@font-face {
+   font-family: 'lato-medium';
+   src: url("fonts/Lato-Medium.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: 'lato-bold';
+   src: url("fonts/Lato-Bold.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: 'lato-light';
+   src: url("fonts/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: 'lato-regular';
+   src: url("fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: 'lato-black';
+   src: url("fonts/Lato-Black.ttf") format("truetype");
+}
+
+$lato-medium: 'lato-medium', sans-serif;
+$lato-bold: 'lato-bold', sans-serif;
+$lato-light: 'lato-light', sans-serif;
+$lato-regular: 'lato-regular', sans-serif;
+$lato-black: 'lato-black', sans-serif;

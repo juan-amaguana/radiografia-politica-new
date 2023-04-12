@@ -26,3 +26,6 @@ old_backup
 
 /public/bower_components
 /public/build
+/public/img/perfiles
+/public/dist
+/public/plugins
