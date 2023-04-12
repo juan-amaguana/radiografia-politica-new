@@ -1,0 +1,4 @@
+http://localhost:8000/api/persona-detalle
+http://localhost:8000/api/personas
+http://localhost:8000/api/persona/1
+jamx
