@@ -59,6 +59,9 @@
 
 
                 @include('partials.modal_sri')
+
+
+                @include('partials.modal_declaracion')
                 <hr>
               </div>
 

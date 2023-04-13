@@ -99,6 +99,9 @@ $url_tweet_patrimonio = 'https://twitter.com/intent/tweet?text=' . $text_patrimo
       </div>
     </div>
   </div>
+  @if($patrimonio)
+  <a class="modal-trigger text-yellow-fcd" href="#modal_declaracion">+ ver mas detalle</a>
+  @endif
   <div  style="display: none;" class="botones-redes-sociales-perfil-2 valign-wrapper col s12 m12">
     <div class="  custom-html-widget">
 

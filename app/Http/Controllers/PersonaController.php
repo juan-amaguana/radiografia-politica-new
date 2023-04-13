@@ -75,6 +75,8 @@ class PersonaController extends Controller
         //dd($concursos);
         $patrimonio = Persona::personasPatrimonioPersona($id);
 
+        $patrimonios = Persona::personasPatrimonioPersona($id);
+
         $compania_presidente = Persona::personasCompaniaPresidente($id);
         $compania_gerente    = Persona::personasCompaniaGerente($id);
         $compania_accionista = Persona::personasCompaniaAccionista($id);
@@ -109,6 +111,7 @@ class PersonaController extends Controller
             'actividad_privada'                      => $actividad_privada,
             'actividad_politica'                     => $actividad_politica,
             'patrimonio'                             => $patrimonio->last(),
+            'patrimonios'                             => $patrimonios,
             'compania_presidente'                    => $compania_presidente,
             'compania_gerente'                       => $compania_gerente,
             'compania_accionista'                    => $compania_accionista,
